@@ -23,6 +23,7 @@ h5,
 h6 {
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
+  color: #ff1616;
 }
 a {
   color: #45aed6;
@@ -605,8 +606,13 @@ margin: 0 8px;
 #about .column-title{
 color:#fff;
 }
-#about p{
-color:#fff;
+#about p, .listarrow{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo preto semitransparente */
+  color: #fff; /* Cor do texto branco */
+  padding: 2px 4px; /* Espaçamento ao redor das palavras */
+  margin: 2px; /* Espaçamento entre as palavras */
+  border-radius: 3px; /* Bordas arredondadas */
 }
 #about .listarrow li{
 color:#fff;
